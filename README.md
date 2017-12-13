@@ -16,3 +16,8 @@
 - Na tela seguinte irá mostrar todas as informações a respeito do pedido, com os descontos em cada lanche, desconto total e preço total do pedido.
 - Para gerar um novo pedido, clique em Voltar na aprte inferior esquerda, ou em Pedido, na parte superior esquerda.
 
+
+<b> Execução dos testes </b>
+
+
+
