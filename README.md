@@ -16,8 +16,19 @@
 - Na tela seguinte irá mostrar todas as informações a respeito do pedido, com os descontos em cada lanche, desconto total e preço total do pedido.
 - Para gerar um novo pedido, clique em Voltar na aprte inferior esquerda, ou em Pedido, na parte superior esquerda.
 
+<b>OBS.: </b>
+- Será criada uma pasta no C:/ chamada Dados, que irá conter os arquivos json do projeto. Caso não tenha a unidade C: ou dê erro na criação em razão de permissões, copiar esses arquivos que estão na pasta app_data do projeto Dextra. Caso dê erro na criação, será exibida uma mensagem na página princiál do site. Se não ocorreu erro, aparecerá a mensagem "Arquivos criados com sucesso". Mas se os arquivos já existirem não aparecerá nenhuma mensagem.
+
+- O nome da pasta C:/Dados está referenciada no web.config, na tag appSettings, na chave "EnderecoArquivos". A mesma configuração está no app.config do projeto Dextra.Tests, que é referentes aos testes.
 
 <b> Execução dos testes </b>
+- Index(): verifica se a página default do site foi executada
+- PromocaoLight() - verifica se a promoção light está correta
+- PromocaoLight_Desconto() - verifica se a desconto da promoção light está correto
+- PromocaoMuitaCarne() - verifica se a promoção muita carne está correta
+- PromocaoMuitoQueijo() - verifica se a promoção muito queijo está correta
+- Pedido_Gerar() - verifica se o valor do pedido está correto
+- Em todos os testes, menos no Index(), tem o cálculo da inflação.
 
 
 
