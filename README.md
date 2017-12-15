@@ -3,7 +3,7 @@
 <b>Instruções para execução</b>
 
 - O projeto deve ser executado no Sistema Operacional Windows
-- Possuir instalada .NET Framework 4.6.0 ou superior
+- Possuir instalada .NET Framework 4.5.2 ou superior
 - Visual Studio 2015 ou superior ou outra IDE compatível
 - Clicar no arquivo Dextra.sln
 - Como não há banco de dados, não será necessário configurar a conexão com o banco de dados.
